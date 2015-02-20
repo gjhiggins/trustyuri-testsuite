@@ -1,4 +1,4 @@
-@prefix : <http://trustyuri.net/examples/nanopub4> .
+@prefix : <http://trustyuri.net/testsuite/nanopub4> .
 @prefix rdfg: <http://www.w3.org/2004/03/trix/rdfg-1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .

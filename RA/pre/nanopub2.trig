@@ -1,4 +1,4 @@
-@prefix : <http://trustyuri.net/examples/nanopub2> .
+@prefix : <http://trustyuri.net/testsuite/nanopub2> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dc: <http://purl.org/dc/terms/> .
@@ -20,7 +20,7 @@
 }
 
 :provenance {
-    :assertion prov:wasDerivedFrom <http://trustyuri.net/examples/nanopub1.RAq2P3suae730r_PPkfdmBhBIpqNO6763sJ0yMQWm6xVg> .
+    :assertion prov:wasDerivedFrom <http://trustyuri.net/testsuite/nanopub1.RAC__rNHIdWuEBi0QWf7FaCcNzfbUyXfz98ds_b8Ho3D8> .
 }
 
 :pubinfo {

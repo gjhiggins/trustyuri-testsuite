@@ -1,5 +1,5 @@
-@prefix this: <http://trustyuri.net/examples/nanopub1.RAq2P3suae730r_PPkfdmBhBIpqNO6763sJ0yMQWm6xVg> .
-@prefix sub: <http://trustyuri.net/examples/nanopub1.RAq2P3suae730r_PPkfdmBhBIpqNO6763sJ0yMQWm6xVg#> .
+@prefix this: <http://trustyuri.net/testsuite/nanopub1.RAC__rNHIdWuEBi0QWf7FaCcNzfbUyXfz98ds_b8Ho3D8> .
+@prefix sub: <http://trustyuri.net/testsuite/nanopub1.RAC__rNHIdWuEBi0QWf7FaCcNzfbUyXfz98ds_b8Ho3D8#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix opm: <http://purl.org/net/opmv/ns#> .
@@ -9,7 +9,7 @@
 @prefix ex: <http://example.com/> .
 
 sub:Head {
-	this: np:hasAssertion sub:assertion ;
+	<http://trustyuri.net/testsuite/nanopub1.RAC__rNHIdWuEBi0QWf7FaCcNzfbUyXfz98ds_b8Ho3D8> np:hasAssertion sub:assertion ;
 		np:hasProvenance sub:provenance ;
 		np:hasPublicationInfo sub:pubinfo ;
 		a np:Nanopublication .
@@ -24,6 +24,6 @@ sub:provenance {
 }
 
 sub:pubinfo {
-	this: dc:created "2013-02-25T14:33:21+01:00"^^xsd:dateTime ;
+	<http://trustyuri.net/testsuite/nanopub1.RAC__rNHIdWuEBi0QWf7FaCcNzfbUyXfz98ds_b8Ho3D8> dc:created "2013-02-25T14:33:21+01:00"^^xsd:dateTime ;
 		pav:createdBy <http://orcid.org/0000-0002-1267-0234> .
 }
